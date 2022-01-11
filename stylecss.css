@@ -1,0 +1,104 @@
+html {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.caja {
+  width: 500px;
+
+  border-radius: 25px;
+
+  background-color: rgb(255, 255, 255);
+}
+.text-tarjeta {
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+h1 {
+  text-align: center;
+  font-size: 27px;
+  color: hsl(223, 47%, 23%);
+}
+.nose {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.parrafo {
+  text-align: center;
+  color: rgb(131, 130, 130);
+  margin: 20px 0;
+}
+.precio {
+  color: rgb(161, 161, 161);
+}
+.bnt {
+  background-color: #476de1;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 20px;
+  transition: background-color 0.3s ease-out;
+  text-align: center;
+  border-radius: 15px;
+  width: 100%;
+}
+.bnt:hover {
+  background-color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.music {
+  width: 50px;
+  color: transparent;
+}
+.bnt-cancel {
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  margin-top: 20px;
+  color: rgb(131, 130, 130);
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 20px;
+  transition: background-color 0.3s ease-out;
+}
+.bnt-cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+div h2 {
+  font-size: 16px;
+}
